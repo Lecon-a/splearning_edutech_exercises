@@ -1,0 +1,75 @@
+body{
+        margin: 0;
+}
+
+.header{
+    background-color: aqua;
+    color: black;
+    padding: 5em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+ul{
+    list-style: none;
+    display:flex;
+}
+
+.section {
+    display:flex;
+}
+
+.section--p1{
+    flex: 1;
+    text-align: center;
+    padding: 4em;
+}
+
+.section--p1 img {
+    width: 140px;
+    height: auto;
+    border-radius: 40;
+}
+
+.form--div {
+    flex: 1;
+    padding: 10em 3em;
+}
+
+.from--control  {
+    outline: none;
+    border: none;
+    background-color: rgba(100, 100, 100, 0.1);
+    text-align: center;
+    margin-block: 20px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.loginbtn{
+    cursor: pointer;
+    padding: 7px;
+    width: 90px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.loginbtn:hover {
+background-color: azure;
+color: aliceblue;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li a {
+    color: #aaa;
+    padding: 8px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #eee;
+}

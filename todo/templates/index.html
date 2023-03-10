@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="home-wrapper">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-4">
+                    <h1>List</h1>
+                    <div>
+                        <form action="/list" method="post" style="display:flex; flex-direction: row;">
+                            <div>
+                                <label for="new_list">New List</label>
+                                <input type="text" name="new_list" placeholder="Enter List">
+                            </div>
+                            <button type="submit">Add</button>
+                        </form>
+                    </div>
+                    <ul class="major-list">
+                        {% for d in data %}
+                            <li>{{ d.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-8">
+                    <div>
+                        <a href="">Add To-Do</a>
+                    </div>
+                    <div>
+                        <form action="">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </form>
+                    </div>
+                    <ul class="details-list">
+                        {% for todo in todos %}
+                            <li>{{ todo.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

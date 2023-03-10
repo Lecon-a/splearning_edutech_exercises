@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.heading {
+    color: #eee;
+    padding: 1em 2em;
+}
+
+.inner--container {
+    margin: 2em auto;
+    width: 200px;
+    height: fit-content;
+    border: 1px inset grey;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.group--display {
+    border: 1px solid grey;
+}
+
+.display {
+    color: #eee;
+    text-align: right;
+    padding: 4px;
+    font-size: 24pt;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    background-color: rgba(169, 168, 168, 0.24);
+}
+
+.mini--display {
+    color: #eee;
+    padding: 4px;
+    height: 18px;
+}
+
+.group--buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.operator--buttons {
+    flex: 1;
+    /* for operator button */
+    display: flex;
+    flex-direction: column;
+}
+
+.group--digits--buttons {
+    flex: 4;
+    margin-right: 4px;
+    /* for the rows */
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    /* for the digit button */
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #eee;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.digits {
+    flex: 1;
+}
+
+.operators {
+    flex: 1;
+}
+
+.green--bkgd {
+    background-color: green;
+    border-radius: 23px;
+}

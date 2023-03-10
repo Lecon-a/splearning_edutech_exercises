@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+.header {
+    background-color: #153E5D;
+    color:gray;
+    padding: .5em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.login, .signup {
+    flex: 2;
+}
+
+.section--p1 {
+    flex: 1;
+    text-align: center;
+    padding: 5em;
+}
+
+.section--p1 img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.form--div {
+    padding: 10em;
+}
+
+.signup {
+    padding: 1.5em 10em;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.from--control {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgba(100, 100, 100, 0.1);
+    text-align: center;
+    margin-block: 15px;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.signup .from--control {
+    width: 70%;
+}
+
+.loginBtn {
+    cursor: pointer;
+    padding: 8px;
+    width: 80px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.loginBtn:hover {
+    background-color: #555;
+    color: #eee;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li a {
+    color: #aaa;
+    padding: 8px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #eee;
+}
+
+.brand {
+    text-decoration: none;
+    color: #eee;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.banner--image {
+    height: 100%;
+    width: 100%;
+}
+
+.banner--writeup {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 10;
+    font-size: 23pt;
+    font-weight: bold;
+    color: yellow;
+}
+
+.group--menu {
+    position: relative;
+}
+
+.sub--menu {
+    position: absolute;
+    display: none;
+    z-index: 100;
+    width: 180px;
+    line-height: 2;
+    background-color: #0b6ab370;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.25);
+}
+
+.sub--list--item a {
+    color: #eee;
+}
+
+.list--item:hover .sub--menu {
+    display: block;
+}
+
+.sub--list--item:hover {
+    background-color: #eee;
+}
+
+.sub--list--item:hover a {
+    color: #333;
+}
+
+.courses {
+    display: flex;
+    padding: 3em 5em;
+}
+
+.course {
+    flex: 1;
+    margin-right: 32px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(180, 177, 177);
+    box-sizing: border-box;
+}
+
+.course:last-child {
+    margin-right: 0;
+}
+
+.course--image {
+    width: 100%;
+    border: 1px solid rgb(180, 177, 177);
+    box-sizing: border-box;
+}
+
+.sub--list--item {
+    border-radius: 23px;
+    padding-right: 4px;
+}
+
+.sub--list--item--image {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 4px;
+    border: 1px solid #0b6ab370;
+    box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.45);
+}
