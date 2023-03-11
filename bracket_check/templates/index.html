@@ -10,6 +10,13 @@
 <body>
     <h1 class="title">Check If Bracket Is Properly Closed</h1>
     
+    {% if data %}
+    <div class="result_container">
+        <div class="result_status"><b>Status: </b>{{ data.result }}</div>
+        <div class="result_status"><b>Text: </b><p>{{ data.text }}</p></div>
+    </div>
+    {% endif %}
+   
     <form action="/bracket" method="post">
         <div class="form-control">
             <label for="text">Message: </label>

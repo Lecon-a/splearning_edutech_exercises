@@ -13,4 +13,8 @@ def index():
 def isClosed():
     text = request.form.get("text")
     result = t.isStringClosed(text)
-    return {"text": text, "result": result}
+    data = {
+        "text": text,
+        "result": result
+    }
+    return render_template("index.html", data=data)

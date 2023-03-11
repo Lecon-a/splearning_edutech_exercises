@@ -1,5 +1,8 @@
 body {
+            display: flex;
+            flex-direction: column;
             background-color: #c3c3c3;
+            gap: 15px;
         }
 
         .title {
@@ -65,4 +68,28 @@ body {
             display: flex;
             flex-direction: column;
             gap: 4px;
+        }
+
+        .result_container {
+            display: flex;
+            color: #777777;
+            flex-direction: column;
+            border-top: 1px solid #777777;
+            border-bottom: 1px solid #777777;
+            padding: 23px;
+            gap: 10px;
+        }
+
+        .result_container div {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .result_container div > * {
+            align-items: center;
+        }
+
+        .result_container p {
+            margin: 0;
         }
