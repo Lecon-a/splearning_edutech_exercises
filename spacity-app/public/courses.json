@@ -1,0 +1,43 @@
+[
+    {
+        "c_id": "1",
+        "c_image": "machine-learning.jpeg",
+        "c_title": "Machine Learning",
+        "c_rating": "Review stats",
+        "c_duration": "Course Duration",
+        "c_desc": "The course description goes here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, similique. Necessitatibus assumenda at esse illo accusantium. Soluta, quidem!" 
+    },
+    {
+        "c_id": "2",
+        "c_image": "data-science.jpeg",
+        "c_title": "Data Science",
+        "c_rating": "Review stats",
+        "c_duration": "Course Duration",
+        "c_desc": "The course description goes here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, similique. Necessitatibus assumenda at esse illo accusantium. Soluta, quidem!" 
+    },
+    {
+        "c_id": "3",
+        "c_image": "web_development.webp",
+        "c_title": "Web Development",
+        "c_rating": "Review stats",
+        "c_duration": "Course Duration",
+        "c_desc": "The course description goes here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, similique. Necessitatibus assumenda at esse illo accusantium. Soluta, quidem!" 
+    },
+    {
+        "c_id": "4",
+        "c_image": "mobile-app.jpeg",
+        "c_title": "Mobile App Dev",
+        "c_rating": "Review stats",
+        "c_duration": "Course Duration",
+        "c_desc": "The course description goes here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, similique. Necessitatibus assumenda at esse illo accusantium. Soluta, quidem!" 
+    }
+    ,
+    {
+        "c_id": "5",
+        "c_image": "mobile-app-01.jpeg",
+        "c_title": "Mobile App",
+        "c_rating": "Review stats",
+        "c_duration": "Course Duration",
+        "c_desc": "The course description goes here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, similique. Necessitatibus assumenda at esse illo accusantium. Soluta, quidem!" 
+    }
+]
